@@ -1,11 +1,12 @@
 {
   "expo": {
-    "name": "FirstApplication",
-    "slug": "FirstApplication",
+    "name": "Todo App",
+    "slug": "todoapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/goal.png",
     "userInterfaceStyle": "light",
+    "backgroundColor": "#fff",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -14,17 +15,19 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.manaveshnarendra.todoapp",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.manaveshnarendra.todoapp",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
